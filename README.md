@@ -58,6 +58,38 @@
 * [JEP 222](http://openjdk.java.net/jeps/222): jshell - Java 中的交互式命令行。
 * [JEP 223](http://openjdk.java.net/jeps/223): 新的版本字符串模式。
 * [JEP 224](http://openjdk.java.net/jeps/224): 增强了 javadoc 工具来生成 HTML5 标记。
+* [JEP 225](http://openjdk.java.net/jeps/225): 增加了 javadoc 搜索。
+* [JEP 226](http://openjdk.java.net/jeps/226): UTF-8 属性文件资源的Bundle相关变化。
+* [JEP 227](http://openjdk.java.net/jeps/227): Unicode 7.0。
+* [JEP 228](http://openjdk.java.net/jeps/228): 增加更多可诊断的命令。
+* [JEP 229](http://openjdk.java.net/jeps/229): 将默认的秘钥库从 JKS 替换为 PKCS12。
+* [JEP 231](http://openjdk.java.net/jeps/231): 移除运行时 JRE 版本选择。
+* [JEP 232](http://openjdk.java.net/jeps/232): 增强了安全相关应用的性能。
+* [JEP 233](http://openjdk.java.net/jeps/233): 开发了一个工具来自动测试运行时编译器。
+* [JEP 235](http://openjdk.java.net/jeps/235): 增加关于 javac 生成类文件属性的 测试。
+* [JEP 236](http://openjdk.java.net/jeps/236): 定义了解析 API 来支持 Nashorn 的 ECMAScript 抽象语法树。
+* [JEP 237](http://openjdk.java.net/jeps/237): Linux/AArch64 端口相关。
+* [JEP 238](http://openjdk.java.net/jeps/238): 多版本 JAR 文件。
+* [JEP 240](http://openjdk.java.net/jeps/240): 移除 JVM 的 TI hprof 客户端。
+* [JEP 241](http://openjdk.java.net/jeps/241): 移除 jhat 工具。
+* [JEP 243](http://openjdk.java.net/jeps/243): 提供 Java 语言级的 JVM 编译接口。
+* [JEP 244](http://openjdk.java.net/jeps/244): TLS 应用层协议协商。
+* [JEP 245](http://openjdk.java.net/jeps/245): 验证 JVM 命令行标志参数。
+* [JEP 246](http://openjdk.java.net/jeps/246): 利用 CPU 指令提升 GHASH 和 RSAd 的性能。
+* [JEP 247](http://openjdk.java.net/jeps/247): 对老平台版本的编译支持。
+* [JEP 248](http://openjdk.java.net/jeps/248): G1 作为默认的垃圾回收器。
+* [JEP 249](http://openjdk.java.net/jeps/249): 基于 TLS 实现 OCSP Stapling。
+* [JEP 250](http://openjdk.java.net/jeps/250): 在类数据分享（CDS）归档中存储 interned 字符串。
+* [JEP 251](http://openjdk.java.net/jeps/251): 多方案镜像。
+* [JEP 252](http://openjdk.java.net/jeps/252): 默认使用 CLDR Locale Data。
+* [JEP 253](http://openjdk.java.net/jeps/253): 为 JavaFX UI 控制 和 CSS API 的模块化做准备。
+* [JEP 254](http://openjdk.java.net/jeps/254): 采用一个空间更加高效的 String 内部表示。
+* [JEP 255](http://openjdk.java.net/jeps/255): 合并 Xerces 2.11.0 中的更新。
+* [JEP 256](http://openjdk.java.net/jeps/256): BeanInfo 注解调整。
+* [JEP 257](http://openjdk.java.net/jeps/257): 更新 JavaFX/Media 中 GStreamer 的版本。
+* [JEP 258](http://openjdk.java.net/jeps/258): 使用 HarfBuzz 作为字体布局引擎。
+* [JEP 259](http://openjdk.java.net/jeps/259): 定义了一个高效标准的 Stack-Walking API。
+* [JEP 260](http://openjdk.java.net/jeps/260): 封装大部分的内部 API。
 
 ... 
 // TODO
