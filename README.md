@@ -90,16 +90,42 @@
 * [JEP 258](http://openjdk.java.net/jeps/258): 使用 HarfBuzz 作为字体布局引擎。
 * [JEP 259](http://openjdk.java.net/jeps/259): 定义了一个高效标准的 Stack-Walking API。
 * [JEP 260](http://openjdk.java.net/jeps/260): 封装大部分的内部 API。
-
-... 
-// TODO
-* 模块化 —— Jigsaw
-* 交互式命令行 —— JShell
-* 默认的垃圾回收器 —— G1
-* 进程操作改进
-* 竞争锁的性能优化
-* 分段代码缓存
-* 优化字符串占用空间 
+* [JEP 261](http://openjdk.java.net/jeps/261): 实现模块化系统。
+* [JEP 262](http://openjdk.java.net/jeps/262): 支持 TIFF 图像 I/O。
+* [JEP 263](http://openjdk.java.net/jeps/263): 实现 Windows 和 Linux 高分辨率图像接口。
+* [JEP 264](http://openjdk.java.net/jeps/264): 平台日志 API 和 服务。
+* [JEP 265](http://openjdk.java.net/jeps/265): Java 2D 使用 Marlin Graphics Renderer。
+* [JEP 266](http://openjdk.java.net/jeps/266): 并发相关的一些更新。
+* [JEP 267](http://openjdk.java.net/jeps/267): 支持 Unicode 8.0。
+* [JEP 268](http://openjdk.java.net/jeps/268): 支持 XML 目录。
+* [JEP 269](http://openjdk.java.net/jeps/269): 增加一些集合类创建的工厂方法。
+* [JEP 270](http://openjdk.java.net/jeps/270): 为临界区预留栈的某些区域。
+* [JEP 271](http://openjdk.java.net/jeps/271): 统一 GC 日志。
+* [JEP 272](http://openjdk.java.net/jeps/272): 增加特定平台的桌面特性。
+* [JEP 273](http://openjdk.java.net/jeps/273): Deterministic Random Bit Generator (DRBG) 的实现。
+* [JEP 274](http://openjdk.java.net/jeps/274): 增强方法处理器。
+* [JEP 275](http://openjdk.java.net/jeps/275): Java 应用模块化打包。
+* [JEP 276](http://openjdk.java.net/jeps/276): 语言定义对象模型的动态链接。
+* [JEP 277](http://openjdk.java.net/jeps/277): 改善 Deprecation。
+* [JEP 278](http://openjdk.java.net/jeps/278): 为 G1 中的巨大对象增加测试。
+* [JEP 279](http://openjdk.java.net/jeps/279): 改进测试故障排除。
+* [JEP 280](http://openjdk.java.net/jeps/280): 指示字符串串联。
+* [JEP 281](http://openjdk.java.net/jeps/281): HotSpot C++ 单元测试框架。
+* [JEP 282](http://openjdk.java.net/jeps/282): Java连接器 jlink。
+* [JEP 283](http://openjdk.java.net/jeps/283): 在 Linux 上支持 GTK 3。
+* [JEP 284](http://openjdk.java.net/jeps/284): 新的 HotSpot 构建系统。
+* [JEP 285](http://openjdk.java.net/jeps/285): 自旋等待提示。
+* [JEP 287](http://openjdk.java.net/jeps/287): 实现 SHA-3 Hash 算法。
+* [JEP 288](http://openjdk.java.net/jeps/288): 禁止 SHA-1 验证。
+* [JEP 289](http://openjdk.java.net/jeps/289): 废弃 Applet API。
+* [JEP 290](http://openjdk.java.net/jeps/290): 过滤输入的序列化数据。
+* [JEP 291](http://openjdk.java.net/jeps/291): 废弃 Concurrent Mark Sweep (CMS) 垃圾收集器。
+* [JEP 292](http://openjdk.java.net/jeps/292): 在 Nashorn 中支持 ECMAScript 6 特征。
+* [JEP 294](http://openjdk.java.net/jeps/294): Linux/s390x 端口。
+* [JEP 295](http://openjdk.java.net/jeps/295): 提前编译。
+* [JEP 297](http://openjdk.java.net/jeps/297): 统一 arm32/arm64 端口。
+* [JEP 298](http://openjdk.java.net/jeps/298): 移除过时的例子。
+* [JEP 299](http://openjdk.java.net/jeps/299): 重新组织文档。 
 
 这个版本中最引人注目的时候模块化，通过这个工作，可以构建更小的运行时环境，只需要包括Java平台中任务依赖的部分。这可以更好地适应云端的开发。
 
