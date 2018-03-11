@@ -36,6 +36,17 @@
 
 # JDK 9
 [JDK 9](http://openjdk.java.net/projects/jdk9/) 于2017年9月21日发布。新特性有：
+* 模块化 —— Jigsaw
+* 交互式命令行 —— JShell
+* 默认的垃圾回收器 —— G1
+* 进程操作改进
+* 竞争锁的性能优化
+* 分段代码缓存
+* 优化字符串占用空间
+
+这个版本中最引人注目的时候模块化，通过这个工作，可以构建更小的运行时环境，只需要包括Java平台中任务依赖的部分。这可以更好地适应云端的开发。
+
+具体的特性包括：
 * [JEP 102](http://openjdk.java.net/jeps/102): 改善了控制和管理操作系统进程的 API。
 * [JEP 110](http://openjdk.java.net/jeps/110): 定义了一个新的 Http 客户端 API，它实现了 `HTTP/2` 和 `WebSocket`，并且可以替代遗留的 ` HttpURLConnection` API。该 API 将会以一个 incubator 模块的形式进行交付。
 * [JEP 143](http://openjdk.java.net/jeps/143): 提高竞争 Java 对象的监视性能。
@@ -127,10 +138,8 @@
 * [JEP 298](http://openjdk.java.net/jeps/298): 移除过时的例子。
 * [JEP 299](http://openjdk.java.net/jeps/299): 重新组织文档。 
 
-这个版本中最引人注目的时候模块化，通过这个工作，可以构建更小的运行时环境，只需要包括Java平台中任务依赖的部分。这可以更好地适应云端的开发。
-
 # JDK 8
-JDK 8 于2014年3月14号发布。从 Java 8 开始开发代号已经弃用了。新特性有:
+[JDK 8](http://openjdk.java.net/projects/jdk8/) 于2014年3月14号发布。从 Java 8 开始开发代号已经弃用了。新特性有:
 * Lambda 表达式
 * Pipelines 和 Streams
 * Date 和 Time API
@@ -143,6 +152,63 @@ JDK 8 于2014年3月14号发布。从 Java 8 开始开发代号已经弃用了�
 * TLS SNI
 
 第三个有里程碑意义的 Java 版本。其中最引人注目的便是 Lambda 表达式了，从此 Java 语言原生提供了函数式编程能力。Java 8 更加适应海量云计算的需要。
+
+具体的特性包括：
+* [JEP 117](http://openjdk.java.net/jeps/117): 移除注解处理工具（Annotation-Processing Tool，apt）。
+* [JEP 124](http://openjdk.java.net/jeps/124): 增强证书撤销检查 API。
+* [JEP 130](http://openjdk.java.net/jeps/130): 实现 SHA-224 消息摘要算法。
+* [JEP 131](http://openjdk.java.net/jeps/131): 在 64-bit Windows 中支持 PKCS#11。
+* [JEP 112](http://openjdk.java.net/jeps/112): Charset 实现改善。
+* [JEP 129](http://openjdk.java.net/jeps/129): 实现 NSA Suite B 加密算法。
+* [JEP 105](http://openjdk.java.net/jeps/105): DocTree API。
+* [JEP 106](http://openjdk.java.net/jeps/106): 扩展 `javax.tools` API 来支持 javadoc 的访问。
+* [JEP 113](http://openjdk.java.net/jeps/113): 在 JDK 的 Kerberos 5 中添加 MS-SFU 扩展。
+* [JEP 114](http://openjdk.java.net/jeps/114): TLS Server Name Indication (SNI) 扩展。
+* [JEP 121](http://openjdk.java.net/jeps/121): 提供更强的 Password-Based-Encryption (PBE) 算法实现。
+* [JEP 122](http://openjdk.java.net/jeps/122): 移除永久带（Permanent Generation）。
+* [JEP 127](http://openjdk.java.net/jeps/127): 改善 Locale Data Packaging，并且采用 Unicode CLDR Data。
+* [JEP 128](http://openjdk.java.net/jeps/128): Unicode BCP 47 本地匹配。
+* [JEP 133](http://openjdk.java.net/jeps/133): 支持 Unicode 6.2。
+* [JEP 136](http://openjdk.java.net/jeps/136): 增强错误验证。
+* [JEP 153](http://openjdk.java.net/jeps/153): 启动 JavaFX 应用。
+* [JEP 177](http://openjdk.java.net/jeps/177): 优化 `java.text.DecimalFormat.format`。
+* [JEP 103](http://openjdk.java.net/jeps/103): 并行数组排序。
+* [JEP 135](http://openjdk.java.net/jeps/135): Base64 编码和解码。
+* [JEP 138](http://openjdk.java.net/jeps/138): 基于 Autoconf 的自动构建系统。
+* [JEP 139](http://openjdk.java.net/jeps/139): 增强 javac 来提高构建速度。
+* [JEP 142](http://openjdk.java.net/jeps/142): 减少对于特定域的高速缓存的争夺。
+* [JEP 147](http://openjdk.java.net/jeps/147): 减少类元数据占用。
+* [JEP 148](http://openjdk.java.net/jeps/148): 支持小虚拟机（不超过3M）的创建。
+* [JEP 149](http://openjdk.java.net/jeps/149): 减少核心库的内存使用。
+* [JEP 150](http://openjdk.java.net/jeps/150): 新的 Date 和 Time API。
+* [JEP 160](http://openjdk.java.net/jeps/160): lambda 函数表达式。
+* [JEP 164](http://openjdk.java.net/jeps/164): 利用 CPU 指令进行 AES 加密。
+* [JEP 166](http://openjdk.java.net/jeps/166): 针对JKS、JCEKS、PKCS12秘钥存储的修改。
+* [JEP 170](http://openjdk.java.net/jeps/170): JDBC 4.2。
+* [JEP 172](http://openjdk.java.net/jeps/172): DocLint。
+* [JEP 173](http://openjdk.java.net/jeps/173): 放弃一些很少使用的 GC 组合。
+* [JEP 101](http://openjdk.java.net/jeps/101): 泛华目标类型接口。
+* [JEP 104](http://openjdk.java.net/jeps/104): 在 Java 类型上加注解。
+* [JEP 107](http://openjdk.java.net/jeps/107): 增加集合的批量数据操作。
+* [JEP 109](http://openjdk.java.net/jeps/109): 在核心库中增加 Lambda 表达式。
+* [JEP 115](http://openjdk.java.net/jeps/115): 认证加密的密码套件。
+* [JEP 118](http://openjdk.java.net/jeps/118): 在运行时访问参数名称。
+* [JEP 119](http://openjdk.java.net/jeps/119): 通过反射实现  `javax.lang.model.*` API。
+* [JEP 120](http://openjdk.java.net/jeps/120): 重复注解。
+* [JEP 123](http://openjdk.java.net/jeps/123): 可配置的安全随机数生成。
+* [JEP 126](http://openjdk.java.net/jeps/126): lambda 表达式和虚拟扩展方法。
+* [JEP 140](http://openjdk.java.net/jeps/140): 限制的 doPrivileged。
+* [JEP 155](http://openjdk.java.net/jeps/155): 并发库更新。
+* [JEP 161](http://openjdk.java.net/jeps/161): 紧凑版本。
+* [JEP 162](http://openjdk.java.net/jeps/162): 为模块化做准备。
+* [JEP 171](http://openjdk.java.net/jeps/171): 在 ` sun.misc.Unsafe` 中增加三个内存排序相关的指令。
+* [JEP 174](http://openjdk.java.net/jeps/174): Nashorn JavaScript 引擎。
+* [JEP 176](http://openjdk.java.net/jeps/176): 提供调用者敏感的检测机制。
+* [JEP 178](http://openjdk.java.net/jeps/178): 静态链接的 jni 库。
+* [JEP 179](http://openjdk.java.net/jeps/179): JDK API 的文档的支持和稳定。
+* [JEP 180](http://openjdk.java.net/jeps/180): 对于频繁冲突的 HashMap 使用平衡树。
+* [JEP 184](http://openjdk.java.net/jeps/184): HTTP URL的权限。
+* [JEP 185](http://openjdk.java.net/jeps/): 限制外部 XML 资源的获取。
 
 # JDK 7
 开发代号是 Dolphin（海豚），于2011年7月28日发行。新特性有：
