@@ -35,7 +35,32 @@
 * [JEP 322](http://openjdk.java.net/jeps/322): 基于时间的版本发布模式。“Feature releases” 版本将包含新特性，“Update releases” 版本仅修复 Bug 。
 
 # JDK 9
-JDK 9 于2017年9月21日发布。新特性有：
+[JDK 9](http://openjdk.java.net/projects/jdk9/) 于2017年9月21日发布。新特性有：
+* [JEP 102](http://openjdk.java.net/jeps/102): 改善了控制和管理操作系统进程的 API。
+* [JEP 110](http://openjdk.java.net/jeps/110): 定义了一个新的 Http 客户端 API，它实现了 `HTTP/2` 和 `WebSocket`，并且可以替代遗留的 ` HttpURLConnection` API。该 API 将会以一个 incubator 模块的形式进行交付。
+* [JEP 143](http://openjdk.java.net/jeps/143): 提高竞争 Java 对象的监视性能。
+* [JEP 158](http://openjdk.java.net/jeps/158): 统一 JVM 的日志。
+* [JEP 165](http://openjdk.java.net/jeps/165): 通过支持运行时管理来增加对 JVM 编译器的管理。
+* [JEP 193](http://openjdk.java.net/jeps/193): 对变量处理的改进。
+* [JEP 197](http://openjdk.java.net/jeps/197): 将代码缓存划分成不同的段。
+* [JEP 200](http://openjdk.java.net/jeps/200): 采用 Java 平台模块化系统（Java Platform Module System，JPMS）对JDK进行模块化。
+* [JEP 201](http://openjdk.java.net/jeps/201): 源代码模块化。
+* [JEP 211](http://openjdk.java.net/jeps/211): 在 import 语句中 省略 `deprecation` 的警告。
+* [JEP 212](http://openjdk.java.net/jeps/212): 解决 lint 和 doclint 警告。
+* [JEP 213](http://openjdk.java.net/jeps/213): Project Coin 的改变
+* [JEP 214](http://openjdk.java.net/jeps/214): 移除 JDK 8 中 GC 组合器的废弃说明。
+* [JEP 215](http://openjdk.java.net/jeps/215): 在 javac 中实现了一个新的类型检测策略。
+* [JEP 216](http://openjdk.java.net/jeps/216): 正确地处理导入声明。
+* [JEP 217](http://openjdk.java.net/jeps/217): 注解流水线 2.0。
+* [JEP 219](http://openjdk.java.net/jeps/219): 定义了数据传输层安全（Datagram Transport Layer Security, DTLS）API。
+* [JEP 220](http://openjdk.java.net/jeps/220): 模块化运行时镜像。
+* [JEP 221](http://openjdk.java.net/jeps/221): 简化 `Doclet` API。
+* [JEP 222](http://openjdk.java.net/jeps/222): jshell - Java 中的交互式命令行。
+* [JEP 223](http://openjdk.java.net/jeps/223): 新的版本字符串模式。
+* [JEP 224](http://openjdk.java.net/jeps/224): 增强了 javadoc 工具来生成 HTML5 标记。
+
+... 
+// TODO
 * 模块化 —— Jigsaw
 * 交互式命令行 —— JShell
 * 默认的垃圾回收器 —— G1
