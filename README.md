@@ -1,13 +1,19 @@
 # JDKHistory
-
 记录Java版本的更新历史，主要是对以下文章的结合：
+* [《Java - JCP、JSR等名词介绍》](http://blog.csdn.net/u010297957/article/details/50915631)
 * [《从java1到java9每个版本都有什么新特性？》](https://www.cnblogs.com/rese-t/p/7823378.html)
 * [《Java 9正式发布》](http://blog.csdn.net/postnull/article/details/78068060?locationNum=2&fps=1)
 * [《JDK 10 本周将进入候选发布阶段，新特性抢先看》](https://www.oschina.net/news/93123/jdk10-release-candidate-phase)
 * [《Java 老矣，尚能饭否？》](http://www.infoq.com/cn/articles/is-java-out-of-date)
 
+# 一些术语
+* [JCP](https://www.jcp.org/en/home/index) 是 Java Community Process（Java社区进程）的简称，社会各界Java组成的社区，规划和领导Java的发展。
+* [JEP](http://openjdk.java.net/jeps/0) 是 JDK Enhancement Proposals （Java 增强提案）的简称，JDK的版本变化将从这些提案中选取。
+* JSR 是 Java Specification Requests（Java规范请求）的简称，是 JCP 成员向委员会提交的 Java 发展议案，经过一系列流程后，如果通过会成为 JEP，最终会体现在未来的Java中。
+* TCK 是 Technology Compatibility Kit（技术兼容性测试）的简称， 如果一个平台型程序想要宣称自己兼容Java，就必须通过TCK测试
+
 # JDK 11
-[JDK 11](http://openjdk.java.net/projects/jdk/10/) 目前出现了4个JEP。
+[JDK 11](http://openjdk.java.net/projects/jdk/11/) 目前出现了4个JEP，计划于 2018 年 9 月发布。
 * [JEP 309](http://openjdk.java.net/jeps/309): 动态类文件常量。
 * [JEP 318](http://openjdk.java.net/jeps/318): 低开销垃圾收集器 Epsilon。
 * [JEP 320](http://openjdk.java.net/jeps/320): 移除 Java EE 和 CORBA 模块。
